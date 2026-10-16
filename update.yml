@@ -33,6 +33,13 @@ jobs:
         id: build
         continue-on-error: true
         run: |
+          if [ ! -f scripts/update.py ] || [ ! -f scripts/template.html ]; then
+            printf '%s\n\n%s\n' "## The timetable could not be updated automatically" \
+              "The files scripts/update.py and scripts/template.html are missing from the repository. Upload the scripts, data and site folders from orar-man-id-upload.zip to the top level of the repository, then run this workflow again." \
+              > "$RUNNER_TEMP/summary.md"
+            cat "$RUNNER_TEMP/summary.md"
+            exit 2
+          fi
           pip install --quiet tzdata
           python scripts/update.py --summary "$RUNNER_TEMP/summary.md"
 
@@ -58,6 +65,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          cat "$RUNNER_TEMP/summary.md" >> "$GITHUB_STEP_SUMMARY"
           if [ "$(cat "$RUNNER_TEMP/summary.md.changed" 2>/dev/null)" = "true" ]; then
             gh issue create --title "Orar actualizat / Timetable updated $(TZ=Europe/Bucharest date +'%d.%m.%Y %H:%M')" \
               --body-file "$RUNNER_TEMP/summary.md"
@@ -68,6 +76,13 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          if [ ! -s "$RUNNER_TEMP/summary.md" ]; then
+            printf '%s\n\n%s\n' "## The timetable could not be updated automatically" \
+              "The update script stopped without a message. See the log of the step \"Read the university document and rebuild the site\"." \
+              > "$RUNNER_TEMP/summary.md"
+          fi
+          echo "Run log: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" >> "$RUNNER_TEMP/summary.md"
+          cat "$RUNNER_TEMP/summary.md" >> "$GITHUB_STEP_SUMMARY"
           gh label create update-failed --color B60205 --description "Automatic update needs attention" --force
           open=$(gh issue list --label update-failed --state open --json number --jq length)
           if [ "$open" = "0" ]; then
