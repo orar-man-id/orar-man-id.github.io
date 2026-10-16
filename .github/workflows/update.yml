@@ -33,15 +33,15 @@ jobs:
         id: build
         continue-on-error: true
         run: |
-          if [ ! -f scripts/update.py ] || [ ! -f scripts/template.html ]; then
+          if [ ! -f update.py ] || [ ! -f template.html ]; then
             printf '%s\n\n%s\n' "## The timetable could not be updated automatically" \
-              "The files scripts/update.py and scripts/template.html are missing from the repository. Upload the scripts, data and site folders from orar-man-id-upload.zip to the top level of the repository, then run this workflow again." \
+              "The files update.py and template.html are missing from the top level of the repository. Upload them, then run this workflow again." \
               > "$RUNNER_TEMP/summary.md"
             cat "$RUNNER_TEMP/summary.md"
             exit 2
           fi
           pip install --quiet tzdata
-          python scripts/update.py --summary "$RUNNER_TEMP/summary.md"
+          python update.py --summary "$RUNNER_TEMP/summary.md"
 
       - name: Save changes
         id: commit
@@ -107,6 +107,6 @@ jobs:
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: site
+          path: .
       - id: deployment
         uses: actions/deploy-pages@v4
