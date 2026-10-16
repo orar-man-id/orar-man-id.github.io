@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>Orar MAN ID 2026–2027</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+:root{
+  --bg:#f4f5f8; --surface:#ffffff; --surface2:#eceff4; --ink:#1b2233; --muted:#5d6679; --line:#dde1e8;
+  --accent:#2d5f9a; --accent-ink:#ffffff; --warn:#a4461f; --warn-bg:#fbeee7;
+  --DA:#9a3b3b; --FIL:#6b4c9a; --GCSM:#2f7a5b; --IC:#b0642a; --MAT:#2d5f9a; --MIC:#a0336e; --REI:#3f7f8f; --ENG:#7a6a1f; --SPO:#4f6b2a;
+  --display:"Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --body:"IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#11141b; --surface:#1a1f29; --surface2:#232a36; --ink:#e8ebf1; --muted:#9aa3b5; --line:#2e3644;
+    --accent:#7fa9dd; --accent-ink:#0f1520; --warn:#f0a17a; --warn-bg:#3a2419;
+    --DA:#e08a8a; --FIL:#b59ae0; --GCSM:#6fc49e; --IC:#e8a46c; --MAT:#7fa9dd; --MIC:#e685b8; --REI:#7cc2d1; --ENG:#d6c46a; --SPO:#9fc46f;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#11141b; --surface:#1a1f29; --surface2:#232a36; --ink:#e8ebf1; --muted:#9aa3b5; --line:#2e3644;
+  --accent:#7fa9dd; --accent-ink:#0f1520; --warn:#f0a17a; --warn-bg:#3a2419;
+  --DA:#e08a8a; --FIL:#b59ae0; --GCSM:#6fc49e; --IC:#e8a46c; --MAT:#7fa9dd; --MIC:#e685b8; --REI:#7cc2d1; --ENG:#d6c46a; --SPO:#9fc46f;
+}
+*{box-sizing:border-box}
+body{background:var(--bg); color:var(--ink); font-family:var(--body); font-size:15px; line-height:1.45; margin:0}
+.wrap{max-width:1080px; margin:0 auto; padding-inline:16px; padding-block:24px 64px; display:flex; flex-direction:column; gap:22px}
+h1,h2,h3{font-family:var(--display); text-wrap:balance; margin:0; letter-spacing:-.01em}
+h1{font-size:clamp(28px,5vw,40px); line-height:1.05}
+h2{font-size:20px}
+.sub{color:var(--muted); margin:6px 0 0; max-width:65ch}
+.eyebrow{font-size:11.5px; text-transform:uppercase; letter-spacing:.09em; color:var(--muted); font-weight:600}
+.mono{font-family:var(--mono); font-variant-numeric:tabular-nums}
+
+.controls{position:sticky; top:env(safe-area-inset-top,0px); z-index:5; background:var(--bg); padding-block:10px; display:flex; flex-wrap:wrap; gap:12px 20px; align-items:flex-end; border-bottom:1px solid var(--line)}
+.ctl{display:flex; flex-direction:column; gap:6px}
+.seg{display:flex; flex-wrap:wrap; gap:6px}
+.seg button{font:inherit; font-weight:600; border:1px solid var(--line); background:var(--surface); color:var(--ink); padding:7px 13px; border-radius:999px; cursor:pointer; font-variant-numeric:tabular-nums}
+.seg button[aria-pressed="true"]{background:var(--ink); color:var(--bg); border-color:var(--ink)}
+.seg button:focus-visible,.ev:focus-visible,.btn:focus-visible,a:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+
+.summary{display:flex; flex-wrap:wrap; gap:8px 18px; color:var(--muted); font-size:13.5px}
+.summary b{color:var(--ink)}
+
+.legend{display:flex; flex-wrap:wrap; gap:6px 14px; font-size:13px; color:var(--muted)}
+.legend span{display:inline-flex; align-items:center; gap:6px}
+.sw{width:10px; height:10px; border-radius:3px; background:var(--c); flex:none}
+
+/* weekend calendar */
+.cal{display:flex; flex-direction:column; gap:10px}
+.month{font-family:var(--display); font-size:17px; margin-top:10px}
+.wk{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px}
+.wk.empty{opacity:.55}
+.day{background:var(--surface); border:1px solid var(--line); border-radius:10px; padding:8px; display:flex; flex-direction:column; gap:6px; min-height:64px}
+.day.none{background:transparent; border-style:dashed}
+.dh{display:flex; justify-content:space-between; align-items:baseline; gap:6px; font-size:12.5px; color:var(--muted)}
+.dh b{color:var(--ink); font-family:var(--mono); font-size:13px}
+.ev{all:unset; box-sizing:border-box; cursor:pointer; display:grid; grid-template-columns:auto 1fr; gap:2px 8px; align-items:baseline; padding:6px 8px 6px 10px; border-radius:7px; background:var(--surface2); border-left:4px solid var(--c); min-width:0}
+.ev:hover{filter:brightness(.97)}
+.ev .t{font-family:var(--mono); font-weight:600; font-size:13px}
+.ev .n{font-weight:600; font-size:13px; overflow-wrap:anywhere; line-height:1.25}
+.ev .m{grid-column:1/-1; font-size:12px; color:var(--muted); display:flex; gap:8px; flex-wrap:wrap}
+.ev .g{font-family:var(--mono); font-size:11px; font-weight:600; padding:0 5px; border-radius:4px; background:var(--surface); color:var(--ink)}
+.flag{color:var(--warn); font-weight:600}
+.nocls{font-size:12px; color:var(--muted)}
+
+/* list view */
+.list{display:flex; flex-direction:column; gap:14px}
+.lday h3{font-size:15px; font-family:var(--body); font-weight:600; display:flex; gap:10px; align-items:baseline; margin-bottom:6px}
+.lday h3 span{color:var(--muted); font-weight:400; font-size:13px}
+.lday .items{display:flex; flex-direction:column; gap:6px}
+.lday .ev{grid-template-columns:64px 1fr auto; padding:10px 12px}
+.lday .ev .t{font-size:15px}
+.lday .ev .n{font-size:14px}
+.lday .ev .r{font-family:var(--mono); font-size:13px; text-align:right}
+.lday .ev .m{grid-column:2/-1}
+
+/* phone section */
+.phone{background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:18px; display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:18px}
+.phone ol{margin:6px 0 0; padding-left:20px; display:flex; flex-direction:column; gap:4px; font-size:14px}
+.btn{font:inherit; font-weight:600; border:0; background:var(--accent); color:var(--accent-ink); padding:10px 16px; border-radius:10px; cursor:pointer; display:inline-flex; gap:8px; align-items:center; text-decoration:none}
+.btn.ghost{background:transparent; color:var(--accent); border:1px solid var(--accent)}
+.status{font-size:13px; color:var(--muted); min-height:1.2em}
+.dlgrid{display:grid; grid-template-columns:auto 1fr 1fr auto; gap:8px 10px; align-items:center; margin-top:14px}
+.dlgrid .gl{font-family:var(--mono); font-weight:600; font-size:15px}
+.dlgrid .btn{justify-content:center; padding:9px 10px; font-size:14px}
+code.mono{font-size:12px; overflow-wrap:anywhere; background:var(--surface2); padding:1px 5px; border-radius:4px}
+.dlgrid .btn.cur{box-shadow:0 0 0 2px var(--bg), 0 0 0 4px var(--accent)}
+.note{background:var(--warn-bg); color:var(--ink); border-radius:10px; padding:12px 14px; font-size:13.5px; display:flex; flex-direction:column; gap:4px}
+.note b{color:var(--warn)}
+
+/* detail dialog */
+dialog{border:0; padding:0; border-radius:16px; background:var(--surface); color:var(--ink); width:min(520px, calc(100% - 32px)); box-shadow:0 20px 60px rgba(10,15,30,.35)}
+dialog::backdrop{background:rgba(10,15,30,.45)}
+.dlg{padding:20px; display:flex; flex-direction:column; gap:14px; border-top:6px solid var(--c)}
+.dlg .top{display:flex; justify-content:space-between; gap:10px; align-items:flex-start}
+.x{all:unset; cursor:pointer; font-size:22px; line-height:1; padding:2px 8px; border-radius:6px; color:var(--muted)}
+.x:focus-visible{outline:2px solid var(--accent)}
+.names h2{font-size:22px}
+.names .ro{color:var(--muted); margin-top:4px; font-size:15px}
+.lang{font-size:10.5px; font-weight:600; letter-spacing:.08em; color:var(--muted); margin-right:6px}
+.facts{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px}
+.fact{background:var(--surface2); border-radius:10px; padding:10px 12px; display:flex; flex-direction:column; gap:2px; min-width:0}
+.fact .v{font-weight:600; font-size:16px; overflow-wrap:anywhere}
+.fact .v.big{font-family:var(--mono); font-size:24px}
+.fact .s{font-size:12.5px; color:var(--muted)}
+.fact.wide{grid-column:1/-1}
+.chips{display:flex; gap:6px; flex-wrap:wrap}
+.chip{font-size:12px; font-weight:600; padding:3px 9px; border-radius:999px; background:var(--surface2)}
+.foot{color:var(--muted); font-size:12.5px; max-width:65ch}
+@media (max-width:560px){
+  .controls{position:static}
+  .wk.empty .day{min-height:0; padding-block:4px}
+  .wk.empty .nocls{display:none}
+  .wk{gap:5px}
+  .day{padding:5px; border-radius:8px}
+  .ev{padding:5px 5px 5px 7px; grid-template-columns:1fr}
+  .ev .n{font-size:12px}
+  .ev .m{display:none}
+  .lday .ev{grid-template-columns:54px 1fr}
+  .lday .ev .r{grid-column:2; text-align:left}
+  .lday .ev .m{display:flex}
+}
+@media (prefers-reduced-motion:no-preference){ .ev{transition:filter .15s} }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Management (Licență, la distanță) · an 1 · sem. 1 · 2026–2027</div>
+    <h1>Orar · Timetable</h1>
+    <p class="sub">Tutorial sessions for groups 168–172, 3 October to 13 December 2026. Choose your group, then tap a class for its time, room and teacher.</p>
+  </header>
+
+  <div class="controls">
+    <div class="ctl"><span class="eyebrow">Grupa / Group</span><div class="seg" id="groups"></div></div>
+    <div class="ctl"><span class="eyebrow">Vizualizare / View</span><div class="seg" id="views">
+      <button id="v-cal" data-v="cal" aria-pressed="true">Calendar</button>
+      <button id="v-list" data-v="list" aria-pressed="false">Listă / List</button></div></div>
+  </div>
+
+  <div class="summary" id="summary"></div>
+  <details id="legwrap"><summary class="eyebrow" style="cursor:pointer">Materii / Subjects · 9</summary><div class="legend" id="legend" style="margin-top:10px"></div></details>
+  <div id="flags"></div>
+  <main id="view"></main>
+
+  <section class="phone" id="phone">
+    <div>
+      <h2>Orarul în telefon / Your timetable on your phone</h2>
+      <p class="sub"><b>Subscribe</b> to your group and your phone keeps itself up to date: when the faculty moves a class, it moves in your calendar too (iPhone usually within a few hours, Google Calendar within a day). Every event has the room, the teacher and both names, plus a reminder 30 minutes before.</p>
+      <div class="dlgrid" id="dlgrid"></div>
+      <div class="status" id="status"></div>
+    </div>
+    <div id="steps">
+      <div class="eyebrow">iPhone</div>
+      <ol>
+        <li>Open this page in Safari and tap your group's <b>iPhone</b> button.</li>
+        <li>Confirm <b>Subscribe</b>, then <b>Add</b>.</li>
+        <li>Or add it by hand: Settings → Apps → Calendar → Calendar Accounts → Add Account → Other → <b>Add Subscribed Calendar</b>, and paste your group's link: <code class="mono" id="link-ios">…</code></li>
+      </ol>
+      <div class="eyebrow" style="margin-top:12px">Android / Google Calendar</div>
+      <ol>
+        <li>Tap your group's <b>Google</b> button and sign in to Google if asked; confirm <b>Add</b>. This works best on a computer.</li>
+        <li>On the phone, open Google Calendar → Settings, tap the new “Orar Grupa …” calendar and turn on <b>Sync</b>.</li>
+        <li>If you already imported a file before, delete those events so you don't see each class twice.</li>
+      </ol>
+      <p class="foot" style="margin-top:12px">The <b>File</b> button downloads a one-time copy instead. It does not update itself.</p>
+    </div>
+  </section>
+
+  <p class="foot" id="updated"></p>
+  <p class="foot">Start times, rooms and teachers are copied from the university document “ORAR ID an I SEM i 2026-2027”. The document lists only start times, so end times assume the standard 90-minute session. The page checks the document every hour and updates itself. Check the official document if anything looks wrong.</p>
+</div>
+
+<dialog id="dlg" aria-labelledby="d-en"><div class="dlg" id="dlgbody"></div></dialog>
+
+<script>
+const EVENTS = __EVENTS__;
+const META = __META__;
+const GROUPS = [...new Set(EVENTS.map(e=>e.group))].sort();
+const MRO = ["ianuarie","februarie","martie","aprilie","mai","iunie","iulie","august","septembrie","octombrie","noiembrie","decembrie"];
+const MEN = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+const byId = Object.fromEntries(EVENTS.map(e=>[e.id,e]));
+let state = {group:"168", view:"cal"};
+try{ const s = JSON.parse(localStorage.getItem("orar-state")||"{}"); if(s.group && (s.group==="all"||GROUPS.includes(s.group))) state.group=s.group; if(s.view) state.view=s.view; }catch(e){}
+function save(){ try{ localStorage.setItem("orar-state", JSON.stringify(state)); }catch(e){} }
+
+const $ = s=>document.querySelector(s);
+function el(tag, attrs={}, ...kids){ const n=document.createElement(tag); for(const [k,v] of Object.entries(attrs)){ if(k==="style") n.style.cssText=v; else if(k.startsWith("on")) n.addEventListener(k.slice(2),v); else n.setAttribute(k,v);} for(const k of kids){ if(k==null) continue; n.append(k.nodeType?k:document.createTextNode(k)); } return n; }
+function d(iso){ const [y,m,dd]=iso.split("-").map(Number); return new Date(Date.UTC(y,m-1,dd)); }
+function fmt(iso){ const x=d(iso); return `${String(x.getUTCDate()).padStart(2,"0")}.${String(x.getUTCMonth()+1).padStart(2,"0")}.${x.getUTCFullYear()}`; }
+function visible(){ return EVENTS.filter(e=>state.group==="all"||e.group===state.group); }
+
+// group buttons
+const gwrap=$("#groups");
+[...GROUPS,"all"].forEach(g=>{ gwrap.append(el("button",{id:"g-"+g,"data-g":g,"aria-pressed":"false",onclick:()=>{state.group=g; save(); render();}}, g==="all"?"Toate / All":g)); });
+document.querySelectorAll("#views button").forEach(b=>b.addEventListener("click",()=>{state.view=b.dataset.v; save(); render();}));
+
+// legend
+const leg=$("#legend"); const seen={};
+EVENTS.forEach(e=>{ if(!seen[e.code]){ seen[e.code]=1; leg.append(el("span",{}, el("i",{class:"sw",style:`--c:var(--${e.code})`}), `${e.en} · ${e.ro}`)); }});
+
+try{ if(matchMedia("(min-width:700px)").matches) $("#legwrap").open=true; }catch(e){}
+function evButton(e, showGroup){
+  const flagged = e.clash.length || e.note;
+  const b = el("button",{class:"ev",style:`--c:var(--${e.code})`,"aria-label":`${e.start} ${e.en}, ${e.ro}, room ${e.room}, group ${e.group}`,onclick:()=>openDlg(e)},
+    el("span",{class:"t"},e.start),
+    el("span",{class:"n"}, e.short, flagged? el("span",{class:"flag"}," ⚠"):null),
+    el("span",{class:"m"}, el("span",{class:"mono"},"Sala "+e.room), showGroup? el("span",{class:"g"},e.group):null));
+  return b;
+}
+
+// weekends: Friday dates from 2 Oct to 11 Dec 2026
+const FRIDAYS=[]; for(let t=Date.UTC(2026,9,2); t<=Date.UTC(2026,11,11); t+=7*864e5) FRIDAYS.push(t);
+function iso(t){ return new Date(t).toISOString().slice(0,10); }
+
+function renderCal(list){
+  const root=el("div",{class:"cal"}); let lastM=-1;
+  const byDay={}; list.forEach(e=>(byDay[e.date]=byDay[e.date]||[]).push(e));
+  FRIDAYS.forEach(fri=>{
+    const days=[0,1,2].map(i=>iso(fri+i*864e5));
+    const m=d(days[1]).getUTCMonth();
+    if(m!==lastM){ root.append(el("div",{class:"month"}, `${MRO[m][0].toUpperCase()+MRO[m].slice(1)} / ${MEN[m]}`)); lastM=m; }
+    const any=days.some(x=>byDay[x]);
+    const wk=el("div",{class:"wk"+(any?"":" empty")});
+    days.forEach((x,i)=>{
+      const evs=(byDay[x]||[]).sort((a,b)=>a.start.localeCompare(b.start)||a.group.localeCompare(b.group));
+      const dd=d(x);
+      const box=el("div",{class:"day"+(evs.length?"":" none")},
+        el("div",{class:"dh"}, el("span",{},["Vineri / Fri","Sâmbătă / Sat","Duminică / Sun"][i]), el("b",{}, String(dd.getUTCDate()).padStart(2,"0")+"."+String(dd.getUTCMonth()+1).padStart(2,"0"))));
+      if(evs.length) evs.forEach(e=>box.append(evButton(e, state.group==="all")));
+      else box.append(el("span",{class:"nocls"},"—"));
+      wk.append(box);
+    });
+    root.append(wk);
+  });
+  return root;
+}
+function renderList(list){
+  const root=el("div",{class:"list"}); const byDay={};
+  list.forEach(e=>(byDay[e.date]=byDay[e.date]||[]).push(e));
+  Object.keys(byDay).sort().forEach(x=>{
+    const evs=byDay[x].sort((a,b)=>a.start.localeCompare(b.start)||a.group.localeCompare(b.group));
+    const items=el("div",{class:"items"});
+    evs.forEach(e=>{
+      const flagged=e.clash.length||e.note;
+      items.append(el("button",{class:"ev",style:`--c:var(--${e.code})`,onclick:()=>openDlg(e)},
+        el("span",{class:"t"},e.start),
+        el("span",{class:"n"}, e.en, flagged? el("span",{class:"flag"}," ⚠"):null),
+        el("span",{class:"r"},"Sala "+e.room),
+        el("span",{class:"m"}, el("span",{},e.ro), el("span",{},e.teacher), state.group==="all"? el("span",{class:"g"},"Grupa "+e.group):null)));
+    });
+    root.append(el("section",{class:"lday"}, el("h3",{}, `${evs[0].dayRo} ${fmt(x)}`, el("span",{}, evs[0].dayEn)), items));
+  });
+  return root;
+}
+
+function gcal(e){
+  const s=e.date.replaceAll("-","")+"T"+e.start.replace(":","")+"00", en=e.date.replaceAll("-","")+"T"+e.end.replace(":","")+"00";
+  const p=new URLSearchParams({action:"TEMPLATE",text:`${e.en} / ${e.ro}`,dates:`${s}/${en}`,ctz:"Europe/Bucharest",location:`Sala ${e.room}`,
+    details:`Profesor / Teacher: ${e.teacher}\nGrupa / Group: ${e.group}\nActivitate tutorială ${e.n}/${e.of} · ${e.kindRo} / ${e.kindEn}\nEnd time estimated (90 min).`});
+  return "https://calendar.google.com/calendar/render?"+p.toString();
+}
+function openDlg(e){
+  const body=$("#dlgbody"); body.style.setProperty("--c",`var(--${e.code})`); body.replaceChildren();
+  body.append(
+    el("div",{class:"top"},
+      el("div",{class:"chips"}, el("span",{class:"chip"},"Grupa "+e.group), el("span",{class:"chip"},`${e.kindRo} / ${e.kindEn}`), el("span",{class:"chip"},`Sesiunea ${e.n} din ${e.of}`)),
+      el("button",{class:"x","aria-label":"Close",onclick:()=>$("#dlg").close()},"×")),
+    el("div",{class:"names"},
+      el("h2",{id:"d-en"}, el("span",{class:"lang"},"EN"), e.en),
+      el("div",{class:"ro"}, el("span",{class:"lang"},"RO"), e.ro)),
+    el("div",{class:"facts"},
+      el("div",{class:"fact"}, el("span",{class:"eyebrow"},"Începe / Starts"), el("span",{class:"v big"},e.start), el("span",{class:"s"},`ends ≈ ${e.end} (estimated)`)),
+      el("div",{class:"fact"}, el("span",{class:"eyebrow"},"Data / Date"), el("span",{class:"v"},fmt(e.date)), el("span",{class:"s"},`${e.dayRo} · ${e.dayEn}`)),
+      el("div",{class:"fact"}, el("span",{class:"eyebrow"},"Sala / Room"), el("span",{class:"v big"},e.room)),
+      el("div",{class:"fact"}, el("span",{class:"eyebrow"},"Profesor / Teacher"), el("span",{class:"v"},e.teacher))
+    ));
+  const warn=[];
+  if(e.clash.length){ e.clash.forEach(id=>{ const o=byId[id]; warn.push(`Overlaps with ${o.en} (${o.start}, Sala ${o.room}) for the same group in the university document. Check which one applies.`); }); }
+  if(e.note) warn.push(e.note);
+  if(warn.length){ const n=el("div",{class:"note"}, el("b",{},"⚠ Check this one")); warn.forEach(w=>n.append(el("span",{},w))); body.append(n); }
+  body.append(el("div",{}, el("a",{class:"btn ghost",href:gcal(e),target:"_blank",rel:"noopener"},"Add to Google Calendar")));
+  $("#dlg").showModal();
+}
+$("#dlg").addEventListener("click",ev=>{ if(ev.target===$("#dlg")) $("#dlg").close(); });
+
+function render(){
+  document.querySelectorAll("#groups button").forEach(b=>b.setAttribute("aria-pressed", String(b.dataset.g===state.group)));
+  document.querySelectorAll("#views button").forEach(b=>b.setAttribute("aria-pressed", String(b.dataset.v===state.view)));
+  const list=visible();
+  const days=new Set(list.map(e=>e.date));
+  const subj=new Set(list.map(e=>e.code));
+  $("#summary").replaceChildren(
+    el("span",{}, el("b",{},String(list.length)), " sessions"),
+    el("span",{}, el("b",{},String(days.size)), " days on campus"),
+    el("span",{}, el("b",{},String(subj.size)), " subjects"),
+    el("span",{}, "First: ", el("b",{}, list.length?fmt(list.map(e=>e.date).sort()[0]):"—")),
+    el("span",{}, "Last: ", el("b",{}, list.length?fmt(list.map(e=>e.date).sort().at(-1)):"—")));
+  const fl=list.filter(e=>e.clash.length||e.note);
+  const flags=$("#flags"); flags.replaceChildren();
+  if(fl.length){
+    const msgs=[]; const seenPair=new Set();
+    fl.forEach(e=>{
+      e.clash.forEach(id=>{ const o=byId[id]; const k=[e.id,id].sort().join("|"); if(seenPair.has(k)) return; seenPair.add(k);
+        msgs.push(`Group ${e.group}, ${e.dayEn} ${fmt(e.date)} at ${e.start}: ${e.en} (Sala ${e.room}) and ${o.en} (Sala ${o.room}) are both scheduled at the same time.`); });
+      if(e.note) msgs.push(`Group ${e.group}, ${e.en}: ${e.note}`);
+    });
+    const n=el("div",{class:"note"}, el("b",{}, msgs.length===1?"⚠ One thing to check in the university document":`⚠ ${msgs.length} things to check in the university document`));
+    msgs.forEach(m=>n.append(el("span",{},m)));
+    flags.append(n);
+  }
+  $("#view").replaceChildren(state.view==="cal"? renderCal(list) : renderList(list));
+  if(typeof markGroup==="function") markGroup();
+}
+render();
+
+// phone calendars: subscription links to the .ics files published next to this page
+function icsUrl(g){ return new URL(`grupa-${g}.ics`, location.href).href; }
+function webcal(g){ return icsUrl(g).replace(/^https?:/, "webcal:"); }
+function gcal(g){ return "https://calendar.google.com/calendar/render?cid=" + encodeURIComponent(webcal(g)); }
+const grid=$("#dlgrid");
+grid.append(el("span",{}), el("span",{class:"eyebrow"},"iPhone"), el("span",{class:"eyebrow"},"Android / Google"), el("span",{class:"eyebrow"},"File"));
+GROUPS.forEach(g=>{
+  grid.append(el("span",{class:"gl"},"Grupa "+g),
+    el("a",{class:"btn","data-g":g,href:webcal(g)},"iPhone"),
+    el("a",{class:"btn ghost","data-g":g,href:gcal(g),target:"_blank",rel:"noopener"},"Google"),
+    el("a",{class:"btn ghost","data-g":g,href:`grupa-${g}.ics`,download:`grupa-${g}.ics`},".ics"));
+});
+function markGroup(){
+  document.querySelectorAll("#dlgrid .btn").forEach(b=>b.classList.toggle("cur", b.dataset.g===state.group));
+  const g = state.group==="all" ? GROUPS[0] : state.group; $("#link-ios").textContent = icsUrl(g);
+}
+markGroup();
+try{
+  const d=new Date(META.lastChanged);
+  $("#updated").textContent = "Ultima modificare a orarului / Timetable last changed: " +
+    d.toLocaleString("ro-RO",{timeZone:"Europe/Bucharest",day:"2-digit",month:"2-digit",year:"numeric",hour:"2-digit",minute:"2-digit"});
+}catch(e){}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+name: Update timetable
+
+on:
+  schedule:
+    - cron: "17 * * * *"      # every hour, at minute 17
+  workflow_dispatch:           # "Run workflow" button in the Actions tab
+  push:
+    branches: [main]           # also rebuild when files are uploaded by hand
+
+permissions:
+  contents: write
+  issues: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: timetable
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    outputs:
+      deploy: ${{ steps.commit.outputs.deploy }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Read the university document and rebuild the site
+        id: build
+        continue-on-error: true
+        run: |
+          pip install --quiet tzdata
+          python scripts/update.py --summary "$RUNNER_TEMP/summary.md"
+
+      - name: Save changes
+        id: commit
+        if: steps.build.outcome == 'success'
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -A
+            git commit -m "Update timetable from the university document"
+            git push
+            echo "deploy=true" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "deploy=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "No changes."
+          fi
+
+      - name: Report timetable changes
+        if: steps.build.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "$(cat "$RUNNER_TEMP/summary.md.changed" 2>/dev/null)" = "true" ]; then
+            gh issue create --title "Orar actualizat / Timetable updated $(TZ=Europe/Bucharest date +'%d.%m.%Y %H:%M')" \
+              --body-file "$RUNNER_TEMP/summary.md"
+          fi
+
+      - name: Report a problem
+        if: steps.build.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create update-failed --color B60205 --description "Automatic update needs attention" --force
+          open=$(gh issue list --label update-failed --state open --json number --jq length)
+          if [ "$open" = "0" ]; then
+            gh issue create --title "Orarul nu a putut fi actualizat / Timetable update needs attention" \
+              --label update-failed --body-file "$RUNNER_TEMP/summary.md"
+          else
+            echo "An open issue already reports this problem."
+          fi
+          exit 1
+
+  deploy:
+    needs: update
+    if: needs.update.outputs.deploy == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4

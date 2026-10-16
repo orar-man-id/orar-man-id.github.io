@@ -1,0 +1,1051 @@
+{
+ "lastChanged": "2026-10-16T18:42:39Z",
+ "sessions": [
+  {
+   "code": "MAT",
+   "group": "168",
+   "start": "2026-10-03T09:10",
+   "room": "2504",
+   "teacher": "CIUREA Grigore",
+   "note": ""
+  },
+  {
+   "code": "REI",
+   "group": "171",
+   "start": "2026-10-03T09:10",
+   "room": "0430",
+   "teacher": "POPESCU MARIA - FLORIANA",
+   "note": ""
+  },
+  {
+   "code": "MAT",
+   "group": "168",
+   "start": "2026-10-03T10:50",
+   "room": "2504",
+   "teacher": "CIUREA Grigore",
+   "note": ""
+  },
+  {
+   "code": "REI",
+   "group": "170",
+   "start": "2026-10-03T10:50",
+   "room": "0430",
+   "teacher": "POPESCU MARIA - FLORIANA",
+   "note": ""
+  },
+  {
+   "code": "MAT",
+   "group": "168",
+   "start": "2026-10-03T12:30",
+   "room": "2504",
+   "teacher": "CIUREA Grigore",
+   "note": ""
+  },
+  {
+   "code": "REI",
+   "group": "169",
+   "start": "2026-10-03T12:30",
+   "room": "0430",
+   "teacher": "POPESCU MARIA - FLORIANA",
+   "note": ""
+  },
+  {
+   "code": "MAT",
+   "group": "168",
+   "start": "2026-10-03T14:10",
+   "room": "2504",
+   "teacher": "CIUREA Grigore",
+   "note": ""
+  },
+  {
+   "code": "REI",
+   "group": "172",
+   "start": "2026-10-03T14:10",
+   "room": "0430",
+   "teacher": "POPESCU MARIA - FLORIANA",
+   "note": ""
+  },
+  {
+   "code": "MAT",
+   "group": "169",
+   "start": "2026-10-04T09:10",
+   "room": "2504",
+   "teacher": "CIUREA Grigore",
+   "note": ""
+  },
+  {
+   "code": "REI",
+   "group": "172",
+   "start": "2026-10-04T09:10",
+   "room": "0430",
+   "teacher": "POPESCU MARIA - FLORIANA",
+   "note": ""
+  },
+  {
+   "code": "MAT",
+   "group": "169",
+   "start": "2026-10-04T10:50",
+   "room": "2504",
+   "teacher": "CIUREA Grigore",
+   "note": ""
+  },
+  {
+   "code": "REI",
+   "group": "171",
+   "start": "2026-10-04T10:50",
+   "room": "0430",
+   "teacher": "POPESCU MARIA - FLORIANA",
+   "note": ""
+  },
+  {
+   "code": "MAT",
+   "group": "169",
+   "start": "2026-10-04T12:30",
+   "room": "2504",
+   "teacher": "CIUREA Grigore",
+   "note": ""
+  },
+  {
+   "code": "REI",
+   "group": "170",
+   "start": "2026-10-04T12:30",
+   "room": "0430",
+   "teacher": "POPESCU MARIA - FLORIANA",
+   "note": ""
+  },
+  {
+   "code": "REI",
+   "group": "168",
+   "start": "2026-10-04T14:10",
+   "room": "0430",
+   "teacher": "POPESCU MARIA - FLORIANA",
+   "note": ""
+  },
+  {
+   "code": "MAT",
+   "group": "169",
+   "start": "2026-10-04T14:10",
+   "room": "2504",
+   "teacher": "CIUREA Grigore",
+   "note": ""
+  },
+  {
+   "code": "FIL",
+   "group": "168",
+   "start": "2026-10-09T17:30",
+   "room": "0334",
+   "teacher": "BOSCA LOREDANA-CORNELIA",
+   "note": ""
+  },
+  {
+   "code": "MIC",
+   "group": "170",
+   "start": "2026-10-09T17:30",
+   "room": "1315",
+   "teacher": "PAPUC CHIVA MARILENA",
+   "note": ""
+  },
+  {
+   "code": "FIL",
+   "group": "168",
+   "start": "2026-10-09T19:10",
+   "room": "0334",
+   "teacher": "BOSCA LOREDANA-CORNELIA",
+   "note": ""
+  },
+  {
+   "code": "MIC",
+   "group": "171",
+   "start": "2026-10-09T19:10",
+   "room": "1315",
+   "teacher": "PAPUC CHIVA MARILENA",
+   "note": ""
+  },
+  {
+   "code": "SPO",
+   "group": "171",
+   "start": "2026-10-10T07:30",
+   "room": "0S02",
+   "teacher": "IACOBINI ALEXANDRA RETA",
+   "note": ""
+  },
+  {
+   "code": "SPO",
+   "group": "172",
+   "start": "2026-10-10T09:00",
+   "room": "0S02",
+   "teacher": "IACOBINI ALEXANDRA RETA",
+   "note": ""
+  },
+  {
+   "code": "ENG",
+   "group": "169",
+   "start": "2026-10-10T09:10",
+   "room": "0427",
+   "teacher": "BOCIANU IRINA IOANA",
+   "note": ""
+  },
+  {
+   "code": "MAT",
+   "group": "170",
+   "start": "2026-10-10T09:10",
+   "room": "2504",
+   "teacher": "CIUREA Grigore",
+   "note": ""
+  },
+  {
+   "code": "FIL",
+   "group": "171",
+   "start": "2026-10-10T09:10",
+   "room": "0334",
+   "teacher": "BOSCA LOREDANA-CORNELIA",
+   "note": ""
+  },
+  {
+   "code": "REI",
+   "group": "168",
+   "start": "2026-10-10T10:50",
+   "room": "0430",
+   "teacher": "POPESCU MARIA - FLORIANA",
+   "note": ""
+  },
+  {
+   "code": "ENG",
+   "group": "169",
+   "start": "2026-10-10T10:50",
+   "room": "0427",
+   "teacher": "BOCIANU IRINA IOANA",
+   "note": ""
+  },
+  {
+   "code": "MAT",
+   "group": "170",
+   "start": "2026-10-10T10:50",
+   "room": "2504",
+   "teacher": "CIUREA Grigore",
+   "note": ""
+  },
+  {
+   "code": "FIL",
+   "group": "171",
+   "start": "2026-10-10T10:50",
+   "room": "0334",
+   "teacher": "BOSCA LOREDANA-CORNELIA",
+   "note": ""
+  },
+  {
+   "code": "MIC",
+   "group": "172",
+   "start": "2026-10-10T10:50",
+   "room": "1315",
+   "teacher": "PAPUC CHIVA MARILENA",
+   "note": ""
+  },
+  {
+   "code": "ENG",
+   "group": "168",
+   "start": "2026-10-10T12:30",
+   "room": "0427",
+   "teacher": "BOCIANU IRINA IOANA",
+   "note": ""
+  },
+  {
+   "code": "REI",
+   "group": "169",
+   "start": "2026-10-10T12:30",
+   "room": "0430",
+   "teacher": "POPESCU MARIA - FLORIANA",
+   "note": ""
+  },
+  {
+   "code": "MAT",
+   "group": "170",
+   "start": "2026-10-10T12:30",
+   "room": "2504",
+   "teacher": "CIUREA Grigore",
+   "note": ""
+  },
+  {
+   "code": "FIL",
+   "group": "172",
+   "start": "2026-10-10T12:30",
+   "room": "0334",
+   "teacher": "BOSCA LOREDANA-CORNELIA",
+   "note": ""
+  },
+  {
+   "code": "ENG",
+   "group": "168",
+   "start": "2026-10-10T14:10",
+   "room": "0427",
+   "teacher": "BOCIANU IRINA IOANA",
+   "note": ""
+  },
+  {
+   "code": "MIC",
+   "group": "169",
+   "start": "2026-10-10T14:10",
+   "room": "1315",
+   "teacher": "PAPUC CHIVA MARILENA",
+   "note": ""
+  },
+  {
+   "code": "MAT",
+   "group": "170",
+   "start": "2026-10-10T14:10",
+   "room": "2504",
+   "teacher": "CIUREA Grigore",
+   "note": ""
+  },
+  {
+   "code": "FIL",
+   "group": "172",
+   "start": "2026-10-10T14:10",
+   "room": "0334",
+   "teacher": "BOSCA LOREDANA-CORNELIA",
+   "note": ""
+  },
+  {
+   "code": "SPO",
+   "group": "168",
+   "start": "2026-10-11T09:10",
+   "room": "0S02",
+   "teacher": "IACOBINI ALEXANDRA RETA",
+   "note": ""
+  },
+  {
+   "code": "ENG",
+   "group": "170",
+   "start": "2026-10-11T09:10",
+   "room": "0427",
+   "teacher": "BOCIANU IRINA IOANA",
+   "note": ""
+  },
+  {
+   "code": "SPO",
+   "group": "169",
+   "start": "2026-10-11T10:50",
+   "room": "0S02",
+   "teacher": "IACOBINI ALEXANDRA RETA",
+   "note": ""
+  },
+  {
+   "code": "ENG",
+   "group": "170",
+   "start": "2026-10-11T10:50",
+   "room": "0427",
+   "teacher": "BOCIANU IRINA IOANA",
+   "note": ""
+  },
+  {
+   "code": "SPO",
+   "group": "170",
+   "start": "2026-10-11T12:30",
+   "room": "0S02",
+   "teacher": "IACOBINI ALEXANDRA RETA",
+   "note": ""
+  },
+  {
+   "code": "ENG",
+   "group": "172",
+   "start": "2026-10-11T12:30",
+   "room": "0427",
+   "teacher": "BOCIANU IRINA IOANA",
+   "note": ""
+  },
+  {
+   "code": "ENG",
+   "group": "172",
+   "start": "2026-10-11T14:10",
+   "room": "0427",
+   "teacher": "BOCIANU IRINA IOANA",
+   "note": ""
+  },
+  {
+   "code": "MIC",
+   "group": "168",
+   "start": "2026-10-16T17:30",
+   "room": "1315",
+   "teacher": "PAPUC CHIVA MARILENA",
+   "note": ""
+  },
+  {
+   "code": "FIL",
+   "group": "169",
+   "start": "2026-10-16T17:30",
+   "room": "0334",
+   "teacher": "BOSCA LOREDANA-CORNELIA",
+   "note": ""
+  },
+  {
+   "code": "MIC",
+   "group": "168",
+   "start": "2026-10-16T19:10",
+   "room": "1315",
+   "teacher": "PAPUC CHIVA MARILENA",
+   "note": ""
+  },
+  {
+   "code": "FIL",
+   "group": "169",
+   "start": "2026-10-16T19:10",
+   "room": "0334",
+   "teacher": "BOSCA LOREDANA-CORNELIA",
+   "note": ""
+  },
+  {
+   "code": "FIL",
+   "group": "168",
+   "start": "2026-10-17T09:10",
+   "room": "0334",
+   "teacher": "BOSCA LOREDANA-CORNELIA",
+   "note": ""
+  },
+  {
+   "code": "IC",
+   "group": "171",
+   "start": "2026-10-17T09:10",
+   "room": "1315",
+   "teacher": "AVRAM Viorel",
+   "note": ""
+  },
+  {
+   "code": "FIL",
+   "group": "168",
+   "start": "2026-10-17T10:50",
+   "room": "0334",
+   "teacher": "BOSCA LOREDANA-CORNELIA",
+   "note": ""
+  },
+  {
+   "code": "IC",
+   "group": "171",
+   "start": "2026-10-17T10:50",
+   "room": "1315",
+   "teacher": "AVRAM Viorel",
+   "note": ""
+  },
+  {
+   "code": "FIL",
+   "group": "169",
+   "start": "2026-10-17T12:30",
+   "room": "0334",
+   "teacher": "BOSCA LOREDANA-CORNELIA",
+   "note": ""
+  },
+  {
+   "code": "IC",
+   "group": "171",
+   "start": "2026-10-17T12:30",
+   "room": "1315",
+   "teacher": "AVRAM Viorel",
+   "note": ""
+  },
+  {
+   "code": "FIL",
+   "group": "169",
+   "start": "2026-10-17T14:10",
+   "room": "0334",
+   "teacher": "BOSCA LOREDANA-CORNELIA",
+   "note": ""
+  },
+  {
+   "code": "IC",
+   "group": "171",
+   "start": "2026-10-17T14:10",
+   "room": "1315",
+   "teacher": "AVRAM Viorel",
+   "note": ""
+  },
+  {
+   "code": "ENG",
+   "group": "171",
+   "start": "2026-10-18T09:10",
+   "room": "0427",
+   "teacher": "BOCIANU IRINA IOANA",
+   "note": ""
+  },
+  {
+   "code": "ENG",
+   "group": "171",
+   "start": "2026-10-18T10:50",
+   "room": "0427",
+   "teacher": "BOCIANU IRINA IOANA",
+   "note": ""
+  },
+  {
+   "code": "FIL",
+   "group": "172",
+   "start": "2026-10-18T12:30",
+   "room": "0334",
+   "teacher": "BOSCA LOREDANA-CORNELIA",
+   "note": ""
+  },
+  {
+   "code": "FIL",
+   "group": "172",
+   "start": "2026-10-18T14:10",
+   "room": "0334",
+   "teacher": "BOSCA LOREDANA-CORNELIA",
+   "note": ""
+  },
+  {
+   "code": "MIC",
+   "group": "169",
+   "start": "2026-10-23T17:30",
+   "room": "1315",
+   "teacher": "PAPUC CHIVA MARILENA",
+   "note": ""
+  },
+  {
+   "code": "FIL",
+   "group": "170",
+   "start": "2026-10-23T17:30",
+   "room": "0334",
+   "teacher": "BOSCA LOREDANA-CORNELIA",
+   "note": ""
+  },
+  {
+   "code": "FIL",
+   "group": "170",
+   "start": "2026-10-23T19:10",
+   "room": "0334",
+   "teacher": "BOSCA LOREDANA-CORNELIA",
+   "note": ""
+  },
+  {
+   "code": "MIC",
+   "group": "172",
+   "start": "2026-10-23T19:10",
+   "room": "1315",
+   "teacher": "PAPUC CHIVA MARILENA",
+   "note": "The university document lists this session as Sâmbătă 23.10.2026, but 23.10.2026 is a Friday (Vineri). It is shown here on Friday; check with the faculty."
+  },
+  {
+   "code": "IC",
+   "group": "169",
+   "start": "2026-10-24T07:30",
+   "room": "0430",
+   "teacher": "DUMITRAŞCU LUMINIŢA-MIHAELA",
+   "note": ""
+  },
+  {
+   "code": "IC",
+   "group": "169",
+   "start": "2026-10-24T09:10",
+   "room": "0430",
+   "teacher": "DUMITRAŞCU LUMINIŢA-MIHAELA",
+   "note": ""
+  },
+  {
+   "code": "FIL",
+   "group": "170",
+   "start": "2026-10-24T09:10",
+   "room": "0334",
+   "teacher": "BOSCA LOREDANA-CORNELIA",
+   "note": ""
+  },
+  {
+   "code": "MAT",
+   "group": "172",
+   "start": "2026-10-24T09:10",
+   "room": "2504",
+   "teacher": "CIUREA Grigore",
+   "note": ""
+  },
+  {
+   "code": "IC",
+   "group": "169",
+   "start": "2026-10-24T10:50",
+   "room": "0430",
+   "teacher": "DUMITRAŞCU LUMINIŢA-MIHAELA",
+   "note": ""
+  },
+  {
+   "code": "FIL",
+   "group": "170",
+   "start": "2026-10-24T10:50",
+   "room": "0334",
+   "teacher": "BOSCA LOREDANA-CORNELIA",
+   "note": ""
+  },
+  {
+   "code": "MAT",
+   "group": "172",
+   "start": "2026-10-24T10:50",
+   "room": "2504",
+   "teacher": "CIUREA Grigore",
+   "note": ""
+  },
+  {
+   "code": "IC",
+   "group": "169",
+   "start": "2026-10-24T12:30",
+   "room": "0430",
+   "teacher": "DUMITRAŞCU LUMINIŢA-MIHAELA",
+   "note": ""
+  },
+  {
+   "code": "FIL",
+   "group": "171",
+   "start": "2026-10-24T12:30",
+   "room": "0334",
+   "teacher": "BOSCA LOREDANA-CORNELIA",
+   "note": ""
+  },
+  {
+   "code": "MAT",
+   "group": "172",
+   "start": "2026-10-24T12:30",
+   "room": "2504",
+   "teacher": "CIUREA Grigore",
+   "note": ""
+  },
+  {
+   "code": "FIL",
+   "group": "171",
+   "start": "2026-10-24T14:10",
+   "room": "0334",
+   "teacher": "BOSCA LOREDANA-CORNELIA",
+   "note": ""
+  },
+  {
+   "code": "MAT",
+   "group": "172",
+   "start": "2026-10-24T14:10",
+   "room": "2504",
+   "teacher": "CIUREA Grigore",
+   "note": ""
+  },
+  {
+   "code": "MAT",
+   "group": "171",
+   "start": "2026-10-25T09:10",
+   "room": "2504",
+   "teacher": "CIUREA Grigore",
+   "note": ""
+  },
+  {
+   "code": "MAT",
+   "group": "171",
+   "start": "2026-10-25T10:50",
+   "room": "2504",
+   "teacher": "CIUREA Grigore",
+   "note": ""
+  },
+  {
+   "code": "MAT",
+   "group": "171",
+   "start": "2026-10-25T12:30",
+   "room": "2504",
+   "teacher": "CIUREA Grigore",
+   "note": ""
+  },
+  {
+   "code": "MAT",
+   "group": "171",
+   "start": "2026-10-25T14:10",
+   "room": "2504",
+   "teacher": "CIUREA Grigore",
+   "note": ""
+  },
+  {
+   "code": "MIC",
+   "group": "168",
+   "start": "2026-11-20T17:30",
+   "room": "1315",
+   "teacher": "PAPUC CHIVA MARILENA",
+   "note": ""
+  },
+  {
+   "code": "GCSM",
+   "group": "171",
+   "start": "2026-11-20T17:30",
+   "room": "0334",
+   "teacher": "MUNTEANU Sebastian-Madalin",
+   "note": ""
+  },
+  {
+   "code": "DA",
+   "group": "172",
+   "start": "2026-11-20T17:30",
+   "room": "2504",
+   "teacher": "MAICAN Ovidiu Horia",
+   "note": ""
+  },
+  {
+   "code": "MIC",
+   "group": "169",
+   "start": "2026-11-20T19:10",
+   "room": "1315",
+   "teacher": "PAPUC CHIVA MARILENA",
+   "note": ""
+  },
+  {
+   "code": "DA",
+   "group": "170",
+   "start": "2026-11-20T19:10",
+   "room": "2504",
+   "teacher": "MAICAN Ovidiu Horia",
+   "note": ""
+  },
+  {
+   "code": "GCSM",
+   "group": "172",
+   "start": "2026-11-20T19:10",
+   "room": "0334",
+   "teacher": "MUNTEANU Sebastian-Madalin",
+   "note": ""
+  },
+  {
+   "code": "IC",
+   "group": "168",
+   "start": "2026-11-21T07:30",
+   "room": "0430",
+   "teacher": "GRIGORESCU Ştefan Iuliu",
+   "note": ""
+  },
+  {
+   "code": "IC",
+   "group": "168",
+   "start": "2026-11-21T09:10",
+   "room": "0430",
+   "teacher": "GRIGORESCU Ştefan Iuliu",
+   "note": ""
+  },
+  {
+   "code": "DA",
+   "group": "169",
+   "start": "2026-11-21T09:10",
+   "room": "2504",
+   "teacher": "MAICAN Ovidiu Horia",
+   "note": ""
+  },
+  {
+   "code": "DA",
+   "group": "168",
+   "start": "2026-11-21T10:50",
+   "room": "2504",
+   "teacher": "MAICAN Ovidiu Horia",
+   "note": ""
+  },
+  {
+   "code": "MIC",
+   "group": "172",
+   "start": "2026-11-21T10:50",
+   "room": "1315",
+   "teacher": "PAPUC CHIVA MARILENA",
+   "note": ""
+  },
+  {
+   "code": "GCSM",
+   "group": "168",
+   "start": "2026-11-21T12:30",
+   "room": "0334",
+   "teacher": "MUNTEANU Sebastian-Madalin",
+   "note": ""
+  },
+  {
+   "code": "DA",
+   "group": "170",
+   "start": "2026-11-21T12:30",
+   "room": "2504",
+   "teacher": "MAICAN Ovidiu Horia",
+   "note": ""
+  },
+  {
+   "code": "MIC",
+   "group": "171",
+   "start": "2026-11-21T12:30",
+   "room": "1315",
+   "teacher": "PAPUC CHIVA MARILENA",
+   "note": ""
+  },
+  {
+   "code": "GCSM",
+   "group": "169",
+   "start": "2026-11-21T14:10",
+   "room": "0334",
+   "teacher": "MUNTEANU Sebastian-Madalin",
+   "note": ""
+  },
+  {
+   "code": "MIC",
+   "group": "170",
+   "start": "2026-11-21T14:10",
+   "room": "1315",
+   "teacher": "PAPUC CHIVA MARILENA",
+   "note": ""
+  },
+  {
+   "code": "DA",
+   "group": "171",
+   "start": "2026-11-21T14:10",
+   "room": "2504",
+   "teacher": "MAICAN Ovidiu Horia",
+   "note": ""
+  },
+  {
+   "code": "GCSM",
+   "group": "170",
+   "start": "2026-11-21T15:50",
+   "room": "0334",
+   "teacher": "MUNTEANU Sebastian-Madalin",
+   "note": ""
+  },
+  {
+   "code": "GCSM",
+   "group": "171",
+   "start": "2026-11-21T17:30",
+   "room": "0334",
+   "teacher": "MUNTEANU Sebastian-Madalin",
+   "note": ""
+  },
+  {
+   "code": "DA",
+   "group": "168",
+   "start": "2026-11-22T09:10",
+   "room": "2504",
+   "teacher": "MAICAN Ovidiu Horia",
+   "note": ""
+  },
+  {
+   "code": "IC",
+   "group": "170",
+   "start": "2026-11-22T09:10",
+   "room": "0430",
+   "teacher": "MATEI Marius Ştefan",
+   "note": ""
+  },
+  {
+   "code": "DA",
+   "group": "169",
+   "start": "2026-11-22T10:50",
+   "room": "2504",
+   "teacher": "MAICAN Ovidiu Horia",
+   "note": ""
+  },
+  {
+   "code": "IC",
+   "group": "170",
+   "start": "2026-11-22T10:50",
+   "room": "0430",
+   "teacher": "MATEI Marius Ştefan",
+   "note": ""
+  },
+  {
+   "code": "GCSM",
+   "group": "168",
+   "start": "2026-11-22T12:30",
+   "room": "0334",
+   "teacher": "MUNTEANU Sebastian-Madalin",
+   "note": ""
+  },
+  {
+   "code": "IC",
+   "group": "170",
+   "start": "2026-11-22T12:30",
+   "room": "0430",
+   "teacher": "MATEI Marius Ştefan",
+   "note": ""
+  },
+  {
+   "code": "DA",
+   "group": "171",
+   "start": "2026-11-22T12:30",
+   "room": "2504",
+   "teacher": "MAICAN Ovidiu Horia",
+   "note": ""
+  },
+  {
+   "code": "GCSM",
+   "group": "169",
+   "start": "2026-11-22T14:10",
+   "room": "0334",
+   "teacher": "MUNTEANU Sebastian-Madalin",
+   "note": ""
+  },
+  {
+   "code": "IC",
+   "group": "170",
+   "start": "2026-11-22T14:10",
+   "room": "0430",
+   "teacher": "MATEI Marius Ştefan",
+   "note": ""
+  },
+  {
+   "code": "DA",
+   "group": "172",
+   "start": "2026-11-22T14:10",
+   "room": "2504",
+   "teacher": "MAICAN Ovidiu Horia",
+   "note": ""
+  },
+  {
+   "code": "GCSM",
+   "group": "170",
+   "start": "2026-11-22T15:50",
+   "room": "0334",
+   "teacher": "MUNTEANU Sebastian-Madalin",
+   "note": ""
+  },
+  {
+   "code": "GCSM",
+   "group": "172",
+   "start": "2026-11-22T17:30",
+   "room": "0334",
+   "teacher": "MUNTEANU Sebastian-Madalin",
+   "note": ""
+  },
+  {
+   "code": "MIC",
+   "group": "171",
+   "start": "2026-11-27T17:30",
+   "room": "1315",
+   "teacher": "PAPUC CHIVA MARILENA",
+   "note": "The university document lists this session as Sâmbătă 27.11.2026, but 27.11.2026 is a Friday (Vineri). It is shown here on Friday; check with the faculty."
+  },
+  {
+   "code": "MIC",
+   "group": "170",
+   "start": "2026-11-27T19:10",
+   "room": "1315",
+   "teacher": "PAPUC CHIVA MARILENA",
+   "note": ""
+  },
+  {
+   "code": "MIC",
+   "group": "172",
+   "start": "2026-11-28T10:50",
+   "room": "1315",
+   "teacher": "PAPUC CHIVA MARILENA",
+   "note": ""
+  },
+  {
+   "code": "MIC",
+   "group": "171",
+   "start": "2026-11-28T12:30",
+   "room": "1315",
+   "teacher": "PAPUC CHIVA MARILENA",
+   "note": ""
+  },
+  {
+   "code": "MIC",
+   "group": "170",
+   "start": "2026-11-28T14:10",
+   "room": "1315",
+   "teacher": "PAPUC CHIVA MARILENA",
+   "note": ""
+  },
+  {
+   "code": "MIC",
+   "group": "168",
+   "start": "2026-12-11T17:30",
+   "room": "1315",
+   "teacher": "PAPUC CHIVA MARILENA",
+   "note": ""
+  },
+  {
+   "code": "MIC",
+   "group": "169",
+   "start": "2026-12-11T19:10",
+   "room": "1315",
+   "teacher": "PAPUC CHIVA MARILENA",
+   "note": ""
+  },
+  {
+   "code": "SPO",
+   "group": "171",
+   "start": "2026-12-12T07:30",
+   "room": "0S02",
+   "teacher": "IACOBINI ALEXANDRA RETA",
+   "note": ""
+  },
+  {
+   "code": "SPO",
+   "group": "172",
+   "start": "2026-12-12T09:00",
+   "room": "0S02",
+   "teacher": "IACOBINI ALEXANDRA RETA",
+   "note": ""
+  },
+  {
+   "code": "IC",
+   "group": "172",
+   "start": "2026-12-12T12:30",
+   "room": "0430",
+   "teacher": "RĂUŢĂ PAULA - ISABELA",
+   "note": ""
+  },
+  {
+   "code": "IC",
+   "group": "172",
+   "start": "2026-12-12T14:10",
+   "room": "0430",
+   "teacher": "RĂUŢĂ PAULA - ISABELA",
+   "note": ""
+  },
+  {
+   "code": "IC",
+   "group": "172",
+   "start": "2026-12-12T15:50",
+   "room": "0430",
+   "teacher": "RĂUŢĂ PAULA - ISABELA",
+   "note": ""
+  },
+  {
+   "code": "IC",
+   "group": "172",
+   "start": "2026-12-12T17:30",
+   "room": "0430",
+   "teacher": "RĂUŢĂ PAULA - ISABELA",
+   "note": ""
+  },
+  {
+   "code": "IC",
+   "group": "168",
+   "start": "2026-12-13T07:30",
+   "room": "0430",
+   "teacher": "GRIGORESCU Ştefan Iuliu",
+   "note": ""
+  },
+  {
+   "code": "IC",
+   "group": "168",
+   "start": "2026-12-13T09:10",
+   "room": "0430",
+   "teacher": "GRIGORESCU Ştefan Iuliu",
+   "note": ""
+  },
+  {
+   "code": "SPO",
+   "group": "170",
+   "start": "2026-12-13T09:10",
+   "room": "0S02",
+   "teacher": "IACOBINI ALEXANDRA RETA",
+   "note": ""
+  },
+  {
+   "code": "SPO",
+   "group": "169",
+   "start": "2026-12-13T10:50",
+   "room": "0S02",
+   "teacher": "IACOBINI ALEXANDRA RETA",
+   "note": ""
+  },
+  {
+   "code": "SPO",
+   "group": "168",
+   "start": "2026-12-13T12:30",
+   "room": "0S02",
+   "teacher": "IACOBINI ALEXANDRA RETA",
+   "note": ""
+  }
+ ],
+ "warnings": [
+  "The table for Microeconomics group 168 has no heading in the document; it was matched by its position.",
+  "Mathematics group 169: date written as “04.10..2026”, read as 04.10.2026.",
+  "Microeconomics group 171: The university document lists this session as Sâmbătă 27.11.2026, but 27.11.2026 is a Friday (Vineri). It is shown here on Friday; check with the faculty.",
+  "Microeconomics group 172: The university document lists this session as Sâmbătă 23.10.2026, but 23.10.2026 is a Friday (Vineri). It is shown here on Friday; check with the faculty."
+ ]
+}

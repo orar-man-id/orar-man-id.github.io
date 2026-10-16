@@ -1,0 +1,473 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//orar-man-id//Orar MAN ID//RO
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Orar Grupa 172 · MAN ID an I\, sem. 1
+X-WR-TIMEZONE:Europe/Bucharest
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:REI-172-202610031410@orar-man-id
+DTSTAMP:20261016T184239Z
+DTSTART:20261003T111000Z
+DTEND:20261003T124000Z
+SUMMARY:International Economic Relations / Relații economice internațio
+ nale
+LOCATION:Sala 0430
+DESCRIPTION:EN: International Economic Relations\nRO: Relații economice 
+ internaționale\nActivitate tutorială / Tutorial activity 1/2\nProfesor 
+ / Teacher: POPESCU MARIA - FLORIANA\nSala / Room: 0430\nGrupa / Group: 17
+ 2\nTip / Type: Obligatoriu / Mandatory\nOra de sfârșit estimată (90 mi
+ n) / End time estimated (90 min)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:REI-172-202610040910@orar-man-id
+DTSTAMP:20261016T184239Z
+DTSTART:20261004T061000Z
+DTEND:20261004T074000Z
+SUMMARY:International Economic Relations / Relații economice internațio
+ nale
+LOCATION:Sala 0430
+DESCRIPTION:EN: International Economic Relations\nRO: Relații economice 
+ internaționale\nActivitate tutorială / Tutorial activity 2/2\nProfesor 
+ / Teacher: POPESCU MARIA - FLORIANA\nSala / Room: 0430\nGrupa / Group: 17
+ 2\nTip / Type: Obligatoriu / Mandatory\nOra de sfârșit estimată (90 mi
+ n) / End time estimated (90 min)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:SPO-172-202610100900@orar-man-id
+DTSTAMP:20261016T184239Z
+DTSTART:20261010T060000Z
+DTEND:20261010T073000Z
+SUMMARY:Physical Education and Sport 1 / Educaţie fizică şi sport 1
+LOCATION:Sala 0S02
+DESCRIPTION:EN: Physical Education and Sport 1\nRO: Educaţie fizică şi
+  sport 1\nActivitate tutorială / Tutorial activity 1/2\nProfesor / Teach
+ er: IACOBINI ALEXANDRA RETA\nSala / Room: 0S02\nGrupa / Group: 172\nTip /
+  Type: Special / Special\nOra de sfârșit estimată (90 min) / End time 
+ estimated (90 min)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:MIC-172-202610101050@orar-man-id
+DTSTAMP:20261016T184239Z
+DTSTART:20261010T075000Z
+DTEND:20261010T092000Z
+SUMMARY:Microeconomics / Microeconomie
+LOCATION:Sala 1315
+DESCRIPTION:EN: Microeconomics\nRO: Microeconomie\nActivitate tutorială 
+ / Tutorial activity 1/4\nProfesor / Teacher: PAPUC CHIVA MARILENA\nSala /
+  Room: 1315\nGrupa / Group: 172\nTip / Type: Obligatoriu / Mandatory\nOra
+  de sfârșit estimată (90 min) / End time estimated (90 min)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:FIL-172-202610101230@orar-man-id
+DTSTAMP:20261016T184239Z
+DTSTART:20261010T093000Z
+DTEND:20261010T110000Z
+SUMMARY:Philosophy / Filosofie
+LOCATION:Sala 0334
+DESCRIPTION:EN: Philosophy\nRO: Filosofie\nActivitate tutorială / Tutori
+ al activity 1/4\nProfesor / Teacher: BOSCA LOREDANA-CORNELIA\nSala / Room
+ : 0334\nGrupa / Group: 172\nTip / Type: Obligatoriu / Mandatory\nOra de s
+ fârșit estimată (90 min) / End time estimated (90 min)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:FIL-172-202610101410@orar-man-id
+DTSTAMP:20261016T184239Z
+DTSTART:20261010T111000Z
+DTEND:20261010T124000Z
+SUMMARY:Philosophy / Filosofie
+LOCATION:Sala 0334
+DESCRIPTION:EN: Philosophy\nRO: Filosofie\nActivitate tutorială / Tutori
+ al activity 2/4\nProfesor / Teacher: BOSCA LOREDANA-CORNELIA\nSala / Room
+ : 0334\nGrupa / Group: 172\nTip / Type: Obligatoriu / Mandatory\nOra de s
+ fârșit estimată (90 min) / End time estimated (90 min)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ENG-172-202610111230@orar-man-id
+DTSTAMP:20261016T184239Z
+DTSTART:20261011T093000Z
+DTEND:20261011T110000Z
+SUMMARY:English Language and Specialised Communication 1 / Limba engleză
+  și comunicare de specialitate 1
+LOCATION:Sala 0427
+DESCRIPTION:EN: English Language and Specialised Communication 1\nRO: Lim
+ ba engleză și comunicare de specialitate 1\nActivitate tutorială / Tut
+ orial activity 1/2\nProfesor / Teacher: BOCIANU IRINA IOANA\nSala / Room:
+  0427\nGrupa / Group: 172\nTip / Type: Opțional / Optional\nOra de sfâr
+ șit estimată (90 min) / End time estimated (90 min)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ENG-172-202610111410@orar-man-id
+DTSTAMP:20261016T184239Z
+DTSTART:20261011T111000Z
+DTEND:20261011T124000Z
+SUMMARY:English Language and Specialised Communication 1 / Limba engleză
+  și comunicare de specialitate 1
+LOCATION:Sala 0427
+DESCRIPTION:EN: English Language and Specialised Communication 1\nRO: Lim
+ ba engleză și comunicare de specialitate 1\nActivitate tutorială / Tut
+ orial activity 2/2\nProfesor / Teacher: BOCIANU IRINA IOANA\nSala / Room:
+  0427\nGrupa / Group: 172\nTip / Type: Opțional / Optional\nOra de sfâr
+ șit estimată (90 min) / End time estimated (90 min)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:FIL-172-202610181230@orar-man-id
+DTSTAMP:20261016T184239Z
+DTSTART:20261018T093000Z
+DTEND:20261018T110000Z
+SUMMARY:Philosophy / Filosofie
+LOCATION:Sala 0334
+DESCRIPTION:EN: Philosophy\nRO: Filosofie\nActivitate tutorială / Tutori
+ al activity 3/4\nProfesor / Teacher: BOSCA LOREDANA-CORNELIA\nSala / Room
+ : 0334\nGrupa / Group: 172\nTip / Type: Obligatoriu / Mandatory\nOra de s
+ fârșit estimată (90 min) / End time estimated (90 min)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:FIL-172-202610181410@orar-man-id
+DTSTAMP:20261016T184239Z
+DTSTART:20261018T111000Z
+DTEND:20261018T124000Z
+SUMMARY:Philosophy / Filosofie
+LOCATION:Sala 0334
+DESCRIPTION:EN: Philosophy\nRO: Filosofie\nActivitate tutorială / Tutori
+ al activity 4/4\nProfesor / Teacher: BOSCA LOREDANA-CORNELIA\nSala / Room
+ : 0334\nGrupa / Group: 172\nTip / Type: Obligatoriu / Mandatory\nOra de s
+ fârșit estimată (90 min) / End time estimated (90 min)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:MIC-172-202610231910@orar-man-id
+DTSTAMP:20261016T184239Z
+DTSTART:20261023T161000Z
+DTEND:20261023T174000Z
+SUMMARY:Microeconomics / Microeconomie
+LOCATION:Sala 1315
+DESCRIPTION:EN: Microeconomics\nRO: Microeconomie\nActivitate tutorială 
+ / Tutorial activity 2/4\nProfesor / Teacher: PAPUC CHIVA MARILENA\nSala /
+  Room: 1315\nGrupa / Group: 172\nTip / Type: Obligatoriu / Mandatory\nOra
+  de sfârșit estimată (90 min) / End time estimated (90 min)\nNOTE: The
+  university document lists this session as Sâmbătă 23.10.2026\, but 23
+ .10.2026 is a Friday (Vineri). It is shown here on Friday\; check with th
+ e faculty.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:MAT-172-202610240910@orar-man-id
+DTSTAMP:20261016T184239Z
+DTSTART:20261024T061000Z
+DTEND:20261024T074000Z
+SUMMARY:Mathematics / Matematică
+LOCATION:Sala 2504
+DESCRIPTION:EN: Mathematics\nRO: Matematică\nActivitate tutorială / Tut
+ orial activity 1/4\nProfesor / Teacher: CIUREA Grigore\nSala / Room: 2504
+ \nGrupa / Group: 172\nTip / Type: Obligatoriu / Mandatory\nOra de sfârș
+ it estimată (90 min) / End time estimated (90 min)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:MAT-172-202610241050@orar-man-id
+DTSTAMP:20261016T184239Z
+DTSTART:20261024T075000Z
+DTEND:20261024T092000Z
+SUMMARY:Mathematics / Matematică
+LOCATION:Sala 2504
+DESCRIPTION:EN: Mathematics\nRO: Matematică\nActivitate tutorială / Tut
+ orial activity 2/4\nProfesor / Teacher: CIUREA Grigore\nSala / Room: 2504
+ \nGrupa / Group: 172\nTip / Type: Obligatoriu / Mandatory\nOra de sfârș
+ it estimată (90 min) / End time estimated (90 min)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:MAT-172-202610241230@orar-man-id
+DTSTAMP:20261016T184239Z
+DTSTART:20261024T093000Z
+DTEND:20261024T110000Z
+SUMMARY:Mathematics / Matematică
+LOCATION:Sala 2504
+DESCRIPTION:EN: Mathematics\nRO: Matematică\nActivitate tutorială / Tut
+ orial activity 3/4\nProfesor / Teacher: CIUREA Grigore\nSala / Room: 2504
+ \nGrupa / Group: 172\nTip / Type: Obligatoriu / Mandatory\nOra de sfârș
+ it estimată (90 min) / End time estimated (90 min)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:MAT-172-202610241410@orar-man-id
+DTSTAMP:20261016T184239Z
+DTSTART:20261024T111000Z
+DTEND:20261024T124000Z
+SUMMARY:Mathematics / Matematică
+LOCATION:Sala 2504
+DESCRIPTION:EN: Mathematics\nRO: Matematică\nActivitate tutorială / Tut
+ orial activity 4/4\nProfesor / Teacher: CIUREA Grigore\nSala / Room: 2504
+ \nGrupa / Group: 172\nTip / Type: Obligatoriu / Mandatory\nOra de sfârș
+ it estimată (90 min) / End time estimated (90 min)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:DA-172-202611201730@orar-man-id
+DTSTAMP:20261016T184239Z
+DTSTART:20261120T153000Z
+DTEND:20261120T170000Z
+SUMMARY:Business Law / Dreptul afacerilor
+LOCATION:Sala 2504
+DESCRIPTION:EN: Business Law\nRO: Dreptul afacerilor\nActivitate tutorial
+ ă / Tutorial activity 1/2\nProfesor / Teacher: MAICAN Ovidiu Horia\nSala
+  / Room: 2504\nGrupa / Group: 172\nTip / Type: Obligatoriu / Mandatory\nO
+ ra de sfârșit estimată (90 min) / End time estimated (90 min)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:GCSM-172-202611201910@orar-man-id
+DTSTAMP:20261016T184239Z
+DTSTART:20261120T171000Z
+DTEND:20261120T184000Z
+SUMMARY:Corporate\, Social and Environmental Governance (ESG) / Guvernan
+ ța corporativă\, socială și de mediu
+LOCATION:Sala 0334
+DESCRIPTION:EN: Corporate\, Social and Environmental Governance (ESG)\nRO
+ : Guvernanța corporativă\, socială și de mediu\nActivitate tutorială
+  / Tutorial activity 1/2\nProfesor / Teacher: MUNTEANU Sebastian-Madalin\
+ nSala / Room: 0334\nGrupa / Group: 172\nTip / Type: Obligatoriu / Mandato
+ ry\nOra de sfârșit estimată (90 min) / End time estimated (90 min)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:MIC-172-202611211050@orar-man-id
+DTSTAMP:20261016T184239Z
+DTSTART:20261121T085000Z
+DTEND:20261121T102000Z
+SUMMARY:Microeconomics / Microeconomie
+LOCATION:Sala 1315
+DESCRIPTION:EN: Microeconomics\nRO: Microeconomie\nActivitate tutorială 
+ / Tutorial activity 3/4\nProfesor / Teacher: PAPUC CHIVA MARILENA\nSala /
+  Room: 1315\nGrupa / Group: 172\nTip / Type: Obligatoriu / Mandatory\nOra
+  de sfârșit estimată (90 min) / End time estimated (90 min)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:DA-172-202611221410@orar-man-id
+DTSTAMP:20261016T184239Z
+DTSTART:20261122T121000Z
+DTEND:20261122T134000Z
+SUMMARY:Business Law / Dreptul afacerilor
+LOCATION:Sala 2504
+DESCRIPTION:EN: Business Law\nRO: Dreptul afacerilor\nActivitate tutorial
+ ă / Tutorial activity 2/2\nProfesor / Teacher: MAICAN Ovidiu Horia\nSala
+  / Room: 2504\nGrupa / Group: 172\nTip / Type: Obligatoriu / Mandatory\nO
+ ra de sfârșit estimată (90 min) / End time estimated (90 min)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:GCSM-172-202611221730@orar-man-id
+DTSTAMP:20261016T184239Z
+DTSTART:20261122T153000Z
+DTEND:20261122T170000Z
+SUMMARY:Corporate\, Social and Environmental Governance (ESG) / Guvernan
+ ța corporativă\, socială și de mediu
+LOCATION:Sala 0334
+DESCRIPTION:EN: Corporate\, Social and Environmental Governance (ESG)\nRO
+ : Guvernanța corporativă\, socială și de mediu\nActivitate tutorială
+  / Tutorial activity 2/2\nProfesor / Teacher: MUNTEANU Sebastian-Madalin\
+ nSala / Room: 0334\nGrupa / Group: 172\nTip / Type: Obligatoriu / Mandato
+ ry\nOra de sfârșit estimată (90 min) / End time estimated (90 min)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:MIC-172-202611281050@orar-man-id
+DTSTAMP:20261016T184239Z
+DTSTART:20261128T085000Z
+DTEND:20261128T102000Z
+SUMMARY:Microeconomics / Microeconomie
+LOCATION:Sala 1315
+DESCRIPTION:EN: Microeconomics\nRO: Microeconomie\nActivitate tutorială 
+ / Tutorial activity 4/4\nProfesor / Teacher: PAPUC CHIVA MARILENA\nSala /
+  Room: 1315\nGrupa / Group: 172\nTip / Type: Obligatoriu / Mandatory\nOra
+  de sfârșit estimată (90 min) / End time estimated (90 min)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:SPO-172-202612120900@orar-man-id
+DTSTAMP:20261016T184239Z
+DTSTART:20261212T070000Z
+DTEND:20261212T083000Z
+SUMMARY:Physical Education and Sport 1 / Educaţie fizică şi sport 1
+LOCATION:Sala 0S02
+DESCRIPTION:EN: Physical Education and Sport 1\nRO: Educaţie fizică şi
+  sport 1\nActivitate tutorială / Tutorial activity 2/2\nProfesor / Teach
+ er: IACOBINI ALEXANDRA RETA\nSala / Room: 0S02\nGrupa / Group: 172\nTip /
+  Type: Special / Special\nOra de sfârșit estimată (90 min) / End time 
+ estimated (90 min)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:IC-172-202612121230@orar-man-id
+DTSTAMP:20261016T184239Z
+DTSTART:20261212T103000Z
+DTEND:20261212T120000Z
+SUMMARY:Introduction to Accounting / Introducere în contabilitate
+LOCATION:Sala 0430
+DESCRIPTION:EN: Introduction to Accounting\nRO: Introducere în contabili
+ tate\nActivitate tutorială / Tutorial activity 1/4\nProfesor / Teacher: 
+ RĂUŢĂ PAULA - ISABELA\nSala / Room: 0430\nGrupa / Group: 172\nTip / Ty
+ pe: Obligatoriu / Mandatory\nOra de sfârșit estimată (90 min) / End ti
+ me estimated (90 min)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:IC-172-202612121410@orar-man-id
+DTSTAMP:20261016T184239Z
+DTSTART:20261212T121000Z
+DTEND:20261212T134000Z
+SUMMARY:Introduction to Accounting / Introducere în contabilitate
+LOCATION:Sala 0430
+DESCRIPTION:EN: Introduction to Accounting\nRO: Introducere în contabili
+ tate\nActivitate tutorială / Tutorial activity 2/4\nProfesor / Teacher: 
+ RĂUŢĂ PAULA - ISABELA\nSala / Room: 0430\nGrupa / Group: 172\nTip / Ty
+ pe: Obligatoriu / Mandatory\nOra de sfârșit estimată (90 min) / End ti
+ me estimated (90 min)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:IC-172-202612121550@orar-man-id
+DTSTAMP:20261016T184239Z
+DTSTART:20261212T135000Z
+DTEND:20261212T152000Z
+SUMMARY:Introduction to Accounting / Introducere în contabilitate
+LOCATION:Sala 0430
+DESCRIPTION:EN: Introduction to Accounting\nRO: Introducere în contabili
+ tate\nActivitate tutorială / Tutorial activity 3/4\nProfesor / Teacher: 
+ RĂUŢĂ PAULA - ISABELA\nSala / Room: 0430\nGrupa / Group: 172\nTip / Ty
+ pe: Obligatoriu / Mandatory\nOra de sfârșit estimată (90 min) / End ti
+ me estimated (90 min)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:IC-172-202612121730@orar-man-id
+DTSTAMP:20261016T184239Z
+DTSTART:20261212T153000Z
+DTEND:20261212T170000Z
+SUMMARY:Introduction to Accounting / Introducere în contabilitate
+LOCATION:Sala 0430
+DESCRIPTION:EN: Introduction to Accounting\nRO: Introducere în contabili
+ tate\nActivitate tutorială / Tutorial activity 4/4\nProfesor / Teacher: 
+ RĂUŢĂ PAULA - ISABELA\nSala / Room: 0430\nGrupa / Group: 172\nTip / Ty
+ pe: Obligatoriu / Mandatory\nOra de sfârșit estimată (90 min) / End ti
+ me estimated (90 min)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
