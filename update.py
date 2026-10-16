@@ -2,9 +2,9 @@
 """Rebuild the timetable site from the university's published Google Doc.
 
 Usage:
-  python scripts/update.py                      # fetch the published document
-  python scripts/update.py --from-html doc.html # use a saved copy of the page
-  python scripts/update.py --from-text doc.txt  # use text copied from the page
+  python update.py                      # fetch the published document
+  python update.py --from-html doc.html # use a saved copy of the page
+  python update.py --from-text doc.txt  # use text copied from the page
 Options:
   --summary FILE   write a Markdown summary (changes, warnings or the error)
 
@@ -22,7 +22,7 @@ import unicodedata
 import urllib.request
 from zoneinfo import ZoneInfo
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.abspath(__file__))   # everything lives at the top level of the repository
 DOC_URL = ("https://docs.google.com/document/d/e/"
            "2PACX-1vSVuDKEvYgpVMPanAge307vo-qKQK-xHiBVdgBaBJlohbev9zzfDwfFhr6cFOWR3g/pub")
 TZ = ZoneInfo("Europe/Bucharest")
@@ -390,7 +390,7 @@ def main():
             write(a.summary, text)
         print(text)
 
-    data_path = os.path.join(ROOT, "data", "timetable.json")
+    data_path = os.path.join(ROOT, "timetable.json")
     old = {}
     if os.path.exists(data_path):
         with open(data_path, encoding="utf-8") as f:
@@ -427,14 +427,14 @@ def main():
 
     pub = [{k: v for k, v in e.items() if not k.startswith("_")} for e in evs]
     meta = {"lastChanged": last, "warnings": warnings, "source": a.url}
-    with open(os.path.join(ROOT, "scripts", "template.html"), encoding="utf-8") as f:
+    with open(os.path.join(ROOT, "template.html"), encoding="utf-8") as f:
         tpl = f.read()
     page = (tpl.replace("__EVENTS__", json.dumps(pub, ensure_ascii=False))
                .replace("__META__", json.dumps(meta, ensure_ascii=False)))
-    write(os.path.join(ROOT, "site", "index.html"), page)
+    write(os.path.join(ROOT, "index.html"), page)
     for g in GROUPS:
-        write(os.path.join(ROOT, "site", f"grupa-{g}.ics"), ics_for(g, evs, stamp))
-    write(os.path.join(ROOT, "site", ".nojekyll"), "")
+        write(os.path.join(ROOT, f"grupa-{g}.ics"), ics_for(g, evs, stamp))
+    write(os.path.join(ROOT, ".nojekyll"), "")
     write(data_path, json.dumps({"lastChanged": last, "sessions": sessions, "warnings": warnings},
                                 ensure_ascii=False, indent=1) + "\n")
 
